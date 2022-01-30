@@ -1,0 +1,12 @@
+div :hover {
+    background-color: blue;
+    border: 3px solid #000000;
+}
+h3 {
+    background-color: powderblue;
+    padding: 15px;
+    border-radius: 10px;
+}
+div :nth-child(3) {
+    background-color: greenyellow;
+  }
