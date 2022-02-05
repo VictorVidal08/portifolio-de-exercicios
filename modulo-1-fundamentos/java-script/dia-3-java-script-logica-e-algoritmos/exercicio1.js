@@ -1,3 +1,5 @@
+//crie um algoritmo que retorne o fatorial de 10.
+
 let number = 10;
 let fatorial = 1;
 
