@@ -7,7 +7,7 @@ let word = 'tryber';
 let contraryWord = "";
 
 for ( let index = 0; index < word.length; index += 1) {
-    contraryWord = contraryWord + ( word.length -1 - index);
+    contraryWord = contraryWord + word[( word.length -1 - index)];
 
 }
 console.log(contraryWord);
