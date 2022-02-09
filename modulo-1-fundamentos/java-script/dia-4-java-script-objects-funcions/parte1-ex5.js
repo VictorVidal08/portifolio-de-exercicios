@@ -24,6 +24,7 @@ let info2 = {
 };
  
 
+
   for(let key in info) {
       console.log(info[key] + " " + "e" + " " + info2[key]);
   };
