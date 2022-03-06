@@ -26,6 +26,11 @@
     window.onload = () => {
       const button = document.getElementById('button');
       button.addEventListener('click', sum);
+
+      const verifyIfItsEmpty = (value1, value2) => {
+        if (typeof value1 === "" || typeof value2 === "") {
+            throw new error ('Os valores não devem retornr vazio!')
+        }
     }
   </script>
 </body>
