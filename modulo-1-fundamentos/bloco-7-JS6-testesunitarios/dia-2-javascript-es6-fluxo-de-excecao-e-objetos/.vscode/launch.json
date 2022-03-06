@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open calculadora.html",
+            "file": "/home/victor/trybe-exercicios/modulo-1-fundamentos/bloco-7-JS6-testesunitarios/dia-2-javascript-es6-fluxo-de-excecao-e-objetos/calculadora.html"
+        }
+    ]
+}
