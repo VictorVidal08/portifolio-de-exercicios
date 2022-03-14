@@ -67,6 +67,6 @@ const books = [
 
 function reduceNames() {
   
-  return books.reduce((acc, curr) => acc + curr.author.name);
+  return books.reduce((acc, curr) => (`${acc} ${curr.author.name}`), ''); 
 }
 console.log(reduceNames());
