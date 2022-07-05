@@ -1,0 +1,5 @@
+this day was justo for installing and running some simple containers.
+
+IMAGE FOR A COOL GAME:  andrius/ascii-patrol.
+
+COMMAND: docker run -it --rm andrius/ascii-patrol
