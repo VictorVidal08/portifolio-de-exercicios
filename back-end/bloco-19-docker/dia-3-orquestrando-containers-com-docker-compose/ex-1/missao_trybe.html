@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trybe</title>
+</head>
+<body>
+    <h1>Missão da Trybe</h1>
+    <p>Gerar oportunidade para pessoas</p>
+    <p>Nosso negócio é GENTE! #VQV</p>
+</body>
+</html>
+
+<!-- commands:
+
+    2 - criar container com servidor httpd:2.4 apache, porta interna 4545:
+    docker run -dp 5050:80 -v "$(pwd):/usr/local/apache2/htdocs" httpd:2.4
+
+    3 - verificar se está rodando:
+    http://localhost:5050/
+
+    4 - acrescente a tag <p> com o seguinte texto: "Nosso negócio é GENTE! #VQV":
+    o -v de volume no codigo de criaçao permite que modificações nos arquivos sejam enviadas para o container.
+
+    5 - Obtenha o id do container httpd:2.4
+    docker ps
+
+    6 - obtenha o Mounts através da propriedade Source:
+    docker inspect id ou nome
+
+    7 - Agora pare o container
+    docker stop idcontainer
+    docker ps confere se parou
+
+    8 - exclua container
+    docker rm 2055d5fbf3df
+
+    10 - Obtenha o IMAGE ID do servidor
+    docker images
+
+    11 - exclua a imagem
+    docker rmi ac826143758d
+--> 
