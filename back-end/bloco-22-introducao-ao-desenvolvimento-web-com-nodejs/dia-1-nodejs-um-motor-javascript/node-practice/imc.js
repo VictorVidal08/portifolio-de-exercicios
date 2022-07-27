@@ -9,6 +9,29 @@ const IMCcalc = (altura, peso) => {
 
     const IMC = (peso / alturaAoQuadrado);
 
+    switch (true) {
+        case IMC >= 40:
+            console.log('Obesidade graus III e IV');
+            break;
+        case IMC >= 35:
+            console.log('Obesidade grau II');
+            break;
+        case IMC >= 30:
+            console.log('Obesidade grau I');
+            break;
+        case IMC >= 25:
+            console.log('Sobrepeso');
+            break;
+        case IMC >= 18.5:
+            console.log('Peso normal');
+            break;
+        case IMC < 18.5:
+            console.log('Abaixo do peso ideal');
+            break;
+        default: 
+            console.log('não foi possível calcular o IMC corretamente');   
+    }
+
     return IMC;
 };
 
