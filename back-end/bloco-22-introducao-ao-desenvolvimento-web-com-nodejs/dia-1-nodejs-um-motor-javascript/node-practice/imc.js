@@ -1,14 +1,23 @@
-const alturaEmMetros = 1.75;
-const pesoEmKg = 74;
+const readline = require('readline-sync');
 
 const IMCcalc = (altura, peso) => {
-    const IMC = peso / Math.pow(altura, 2);
-    // console.log(IMC);
+
+    console.log(`Peso informado: ${peso}, Altura informada: ${altura}`);
+
+    const alturaEmMetros = altura / 100;
+    const alturaAoQuadrado = alturaEmMetros ** 2;
+
+    const IMC = (peso / alturaAoQuadrado);
+
     return IMC;
 };
 
  function main() {
-    const imc = IMCcalc(alturaEmMetros, pesoEmKg);
+
+    const peso = readline.questionFloat('Informe seu peso em kg: ');
+   const altura = readline.questionInt('Informe a sua altura em cm: ');
+
+    const imc = IMCcalc(altura, peso);
 
     console.log(`IMC: ${imc.toFixed(2)}`);
  }
