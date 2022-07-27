@@ -20,6 +20,7 @@ const IMCcalc = (altura, peso) => {
     const imc = IMCcalc(altura, peso);
 
     console.log(`IMC: ${imc.toFixed(2)}`);
+
  }
 
  main();
