@@ -1,10 +1,6 @@
 import json
 import csv
 
-# with open("books.json") as file:
-#     book = json.load(file)
-
-# print(book[0]['categories'])
 
 def retrieve_books(file):
     return json.load(file)
